@@ -33,7 +33,7 @@
         <a class="nav-link" href="#experience">Experience</a>
         <a class="nav-link" href="#education">Education</a>
         <a class="nav-link" href="#contact">Contact</a>
-        <a class="nav-resume" href="https://drive.google.com/file/d/12_GOCwXe5fYVyBlIq5XvGnH2rs1qAtQA/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume <span>↗</span></a>
+        <a class="nav-resume" href="https://drive.google.com/file/d/1ikTw6GXQFsnMtBsPPkNpqh3wbpj3gWEW/view?usp=sharing" target="_blank" rel="noopener noreferrer">Resume <span>↗</span></a>
       </div>
     </nav>
   </header>
@@ -113,12 +113,13 @@
           <h2>Technical Skills</h2>
         </div>
         <div class="skills-grid">
-          <article class="skill-card reveal"><span class="skill-number">01</span><h3>Programming</h3><div class="tags"><span>Python</span><span>SQL</span><span>C++</span><span>C</span><span>Java</span></div></article>
-          <article class="skill-card reveal"><span class="skill-number">02</span><h3>Machine Learning</h3><div class="tags"><span>Regression</span><span>Classification</span><span>Clustering</span><span>XGBoost</span><span>Random Forest</span><span>SVM</span><span>Feature Engineering</span><span>Model Evaluation</span></div></article>
-          <article class="skill-card reveal"><span class="skill-number">03</span><h3>Deep Learning</h3><div class="tags"><span>PyTorch</span><span>CNN</span><span>RNN</span><span>LSTM</span><span>Transformers</span><span>Transfer Learning</span><span>TensorFlow</span></div></article>
-          <article class="skill-card reveal"><span class="skill-number">04</span><h3>Generative AI &amp; NLP</h3><div class="tags"><span>LLMs</span><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>FAISS</span><span>Hugging Face</span><span>Fine-tuning</span><span>Prompt Engineering</span><span>Semantic Search</span></div></article>
-          <article class="skill-card reveal"><span class="skill-number">05</span><h3>Deployment &amp; MLOps</h3><div class="tags"><span>FastAPI</span><span>Docker</span><span>MLflow</span><span>Streamlit</span><span>Git</span><span>GitHub</span></div></article>
-          <article class="skill-card reveal"><span class="skill-number">06</span><h3>Databases</h3><div class="tags"><span>MySQL</span><span>Oracle SQL</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">01</span><h3>Programming &amp; APIs</h3><div class="tags"><span>Python</span><span>SQL</span><span>OOP</span><span>REST APIs</span><span>JSON</span><span>AsyncIO</span><span>Java</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><h3>Machine Learning</h3><div class="tags"><span>Regression</span><span>Classification</span><span>Clustering</span><span>Feature Engineering</span><span>Model Evaluation</span><span>Data Preprocessing</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><h3>Deep Learning</h3><div class="tags"><span>PyTorch</span><span>TensorFlow</span><span>CNN</span><span>RNN</span><span>LSTM</span><span>Transformers</span><span>Transfer Learning</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><h3>Agentic AI &amp; Generative AI</h3><div class="tags"><span>LLMs</span><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>Prompt Engineering</span><span>AI Agents</span><span>LLM API Integration</span><span>MCP</span><span>Workflow Orchestration</span><span>Conversational Memory</span><span>Hugging Face Transformers</span><span>LoRA</span><span>QLoRA</span><span>PEFT</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">05</span><h3>Data &amp; Vector Search</h3><div class="tags"><span>Embeddings</span><span>Sentence Transformers</span><span>FAISS</span><span>Semantic Search</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">06</span><h3>Deployment &amp; MLOps</h3><div class="tags"><span>FastAPI</span><span>Docker</span><span>Streamlit</span><span>MLflow</span><span>Git</span><span>GitHub</span><span>Basic AWS</span><span>Basic Kubernetes</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">07</span><h3>Databases</h3><div class="tags"><span>MySQL</span><span>Oracle SQL</span></div></article>
         </div>
       </div>
     </section>
@@ -133,7 +134,26 @@
 
         <article class="project featured reveal">
           <div class="project-main">
-            <div class="project-top"><span class="project-id">PROJECT 01</span><span class="project-type">NLP + GENERATIVE AI</span></div>
+            <div class="project-top"><span class="project-id">PROJECT 01 · NEW</span><span class="project-type">AGENTIC AI</span></div>
+            <h3>AI Multi-Agent Customer Support Platform</h3>
+            <p class="project-desc">A LangGraph-based multi-agent customer support platform for ticket classification, priority prediction, sentiment analysis and human escalation, with RAG-powered FAQ assistance.</p>
+            <div class="tech-line">Python <span>·</span> LangGraph <span>·</span> FastAPI <span>·</span> Gemini API <span>·</span> FAISS <span>·</span> Streamlit <span>·</span> SQLite</div>
+            <div class="project-content">
+              <ul class="project-points">
+                <li>Orchestrated specialized agents for ticket classification, priority prediction, sentiment analysis and human escalation.</li>
+                <li>Implemented FAISS-based RAG with BGE embeddings and Gemini API for FAQ retrieval and context-aware responses.</li>
+                <li>Built FastAPI services and a Streamlit dashboard with SQLite persistence for ticket tracking, agent logs and human-review workflows.</li>
+                <li>Development testing results: <strong>99.94% intent-classification accuracy</strong>, <strong>93.60% weighted F1</strong> for priority prediction, and <strong>95.93% Recall@5</strong> for FAQ retrieval.</li>
+              </ul>
+              <div class="pipeline"><div class="pipeline-title">MULTI-AGENT PIPELINE</div><div class="pipeline-flow"><span>Ticket</span><b>→</b><span>LangGraph</span><b>→</b><span>Classify</span><b>→</b><span>Priority / Sentiment</span><b>→</b><span>RAG + Gemini</span><b>→</b><span>Human Review</span></div></div>
+            </div>
+            <div class="project-links"><a class="project-link" href="https://github.com/AtharvaBorawake/Multi-Agent-Customer-Support-Platform" target="_blank" rel="noopener noreferrer">GitHub Repository <span>↗</span></a></div>
+          </div>
+        </article>
+
+        <article class="project featured reveal">
+          <div class="project-main">
+            <div class="project-top"><span class="project-id">PROJECT 02</span><span class="project-type">NLP + GENERATIVE AI</span></div>
             <h3>AI-Powered Customer Support Automation</h3>
             <p class="project-desc">An end-to-end customer support automation system that classifies tickets into business queues and generates AI-powered acknowledgment responses.</p>
             <div class="tech-line">Python <span>·</span> PyTorch <span>·</span> DistilBERT <span>·</span> Gemini 2.5 Flash <span>·</span> Streamlit</div>
@@ -151,7 +171,7 @@
 
         <div class="project-grid">
           <article class="project-card reveal">
-            <div class="project-top"><span class="project-id">PROJECT 02</span><span class="project-type">RAG</span></div>
+            <div class="project-top"><span class="project-id">PROJECT 03</span><span class="project-type">RAG</span></div>
             <h3>Personal AI Knowledge Assistant</h3>
             <p>RAG-based assistant supporting PDF, DOCX, TXT and CSV documents through semantic search, vector retrieval and LLM generation.</p>
             <div class="tech-line">Python <span>·</span> LangChain <span>·</span> FAISS <span>·</span> Sentence Transformers <span>·</span> FLAN-T5</div>
@@ -160,7 +180,7 @@
           <div class="project-links"><a class="project-link" href="https://github.com/AtharvaBorawake/AI-Knowledge-Assistant-using-RAG" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div></article>
 
           <article class="project-card reveal">
-            <div class="project-top"><span class="project-id">PROJECT 03</span><span class="project-type">COMPUTER VISION</span></div>
+            <div class="project-top"><span class="project-id">PROJECT 04</span><span class="project-type">COMPUTER VISION</span></div>
             <h3>Garbage Image Classification</h3>
             <p>Deep learning image classification system for automated waste segregation using transfer learning.</p>
             <div class="tech-line">TensorFlow <span>·</span> ResNet50 <span>·</span> MobileNetV2 <span>·</span> EfficientNetB0 <span>·</span> Streamlit</div>
@@ -168,7 +188,7 @@
           <div class="project-links"><a class="project-link" href="https://github.com/AtharvaBorawake/RecycleVision---Garbage-Image-Classification-Using-Deep-Learning" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div></article>
 
           <article class="project-card reveal">
-            <div class="project-top"><span class="project-id">PROJECT 04</span><span class="project-type">RECOMMENDATION</span></div>
+            <div class="project-top"><span class="project-id">PROJECT 05</span><span class="project-type">RECOMMENDATION</span></div>
             <h3>Audible Insights</h3>
             <p>AI-powered book recommendation system using content-based filtering, dimensionality reduction and clustering.</p>
             <div class="tech-line">Python <span>·</span> NLP <span>·</span> TF-IDF <span>·</span> Truncated SVD <span>·</span> K-Means</div>
@@ -176,7 +196,7 @@
           <div class="project-links"><a class="project-link" href="https://github.com/AtharvaBorawake/Audible-Insights-Intelligent-Book-Recommendations" target="_blank" rel="noopener noreferrer">GitHub <span>↗</span></a></div></article>
 
           <article class="project-card reveal">
-            <div class="project-top"><span class="project-id">PROJECT 05</span><span class="project-type">INTERNSHIP PROJECT</span></div>
+            <div class="project-top"><span class="project-id">PROJECT 06</span><span class="project-type">INTERNSHIP PROJECT</span></div>
             <h3>AgroWhiz</h3>
             <p>AI-powered agricultural chatbot developed during the Infosys internship using the Beckn Protocol ecosystem.</p>
             <div class="tech-line">Angular <span>·</span> Flask <span>·</span> Beckn Protocol <span>·</span> TF-IDF <span>·</span> GloVe</div>

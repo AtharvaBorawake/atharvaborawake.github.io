@@ -61,3 +61,10 @@ RecycleVision GitHub: https://github.com/AtharvaBorawake/RecycleVision---Garbage
 Audible Insights GitHub: https://github.com/AtharvaBorawake/Audible-Insights-Intelligent-Book-Recommendations
 Email: atharvaborawake210@gmail.com
 Phone: +91 7887722754
+
+
+## Latest update
+
+- Added the AI Multi-Agent Customer Support Platform project and its GitHub repository.
+- Expanded the skills section with the latest resume skills, including AsyncIO, MCP, workflow orchestration, conversational memory, LoRA, QLoRA, PEFT, embeddings, basic AWS and basic Kubernetes.
+- Preserved the existing resume, profile, certificate and project links.
